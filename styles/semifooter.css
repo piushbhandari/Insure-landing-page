@@ -1,5 +1,4 @@
 .section-semifooter {
-  border: 1px solid red;
   margin-bottom: 15rem;
   padding: 0 2.4rem;
 }
@@ -9,9 +8,6 @@
   padding: 6.9rem 8.1rem;
   color: white;
   background: #2d2641;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: relative;
   overflow: hidden;
 }
