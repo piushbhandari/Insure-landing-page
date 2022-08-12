@@ -66,6 +66,7 @@
   .section-hero {
     height: initial;
     min-height: 60rem;
+    margin-bottom: 14rem;
   }
   .section-hero__cont {
     padding: 4rem 0 9.3rem 0;
