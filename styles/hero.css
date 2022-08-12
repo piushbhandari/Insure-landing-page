@@ -19,6 +19,7 @@
 .section-hero__cont {
   padding: 10.5rem 12.7rem;
   display: flex;
+  justify-content: center;
   gap: 3rem;
 }
 .section-hero__textbox {
