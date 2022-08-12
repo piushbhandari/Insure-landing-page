@@ -1,3 +1,110 @@
 .section-hero {
+  background: #2d2641;
+  position: relative;
+  margin-bottom: 30.5rem;
+  height: 60rem;
+}
+.section-hero__pattern {
+  position: absolute;
+  max-width: 69.7rem;
+}
+.section-hero__pattern--1 {
+  top: 0;
+  right: 0;
+}
+.section-hero__pattern--2 {
+  bottom: -30.3rem;
+  left: 0;
+}
+.section-hero__cont {
+  padding: 10.5rem 12.7rem;
+  display: flex;
+  gap: 3rem;
+}
+.section-hero__textbox {
+  max-width: 54.4rem;
+  padding-top: 6.3rem;
+  color: white;
+  position: relative;
+}
+.section-hero__textbox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 15rem;
+  border: 1px solid white;
+}
+
+.section-hero__title {
+  margin-bottom: 1.6rem;
+}
+.section-hero__description {
+  margin-bottom: 2.4rem;
+}
+.section-hero__cta {
+  border: 1.5px solid white;
+  padding: 1.3rem 2.85rem 1.2rem 2.85rem;
+  display: inline-block;
+  color: white;
+}
+.section-hero__cta:hover,
+.section-hero__cta:focus {
+  background: white;
+  color: #2c2830;
+}
+.section-hero__imgbox {
+  width: 100%;
+  max-width: 54rem;
+}
+.section-hero__pattern--mobile {
   display: none;
+}
+@media all and (max-width: 1043px) {
+  .section-hero {
+    height: initial;
+    min-height: 60rem;
+  }
+  .section-hero__cont {
+    padding: 4rem 0 9.3rem 0;
+    display: flex;
+    gap: 3rem;
+  }
+  .section-hero__cont {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 9.3rem;
+  }
+  .section-hero__textbox {
+    text-align: center;
+  }
+  .section-hero__textbox::after {
+    display: none;
+  }
+}
+@media all and (max-width: 538px) {
+  .section-hero__cont {
+    padding: 0 0 9.3rem 0;
+  }
+  .section-hero__textbox {
+    width: 100%;
+    padding: 0 2.4rem 0 2.4rem;
+  }
+  .section-hero__pattern--desktop {
+    display: none;
+  }
+  .section-hero__pattern--mobile {
+    display: block;
+  }
+}
+@media all and (max-width: 448px) {
+  .section-hero__title {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    letter-spacing: -0.666667px;
+  }
+  .section-hero__description {
+    margin-bottom: 3.2rem;
+  }
 }
