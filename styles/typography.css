@@ -5,3 +5,9 @@
   letter-spacing: 0.15rem;
   text-transform: uppercase;
 }
+.secondary-header {
+  font-weight: 400;
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.7777778px;
+}
